@@ -1,0 +1,27 @@
+{
+  "name": "sb-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "2.6",
+    "vue-loader": "15.9",
+    "vue-template-compiler": "2.6",
+    "webpack": "^4.46.0"
+  },
+  "packageManager": "yarn@3.2.0",
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@mdx-js/react": "^1.6.22",
+    "@storybook/addon-actions": "^6.5.0-alpha.45",
+    "@storybook/addon-docs": "^6.5.0-alpha.45",
+    "@storybook/addon-essentials": "^6.5.0-alpha.45",
+    "@storybook/addon-links": "^6.5.0-alpha.45",
+    "@storybook/vue": "^6.5.0-alpha.45",
+    "babel-loader": "^8.2.3"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  }
+}
