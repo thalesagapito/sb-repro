@@ -4,10 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "@tailwindcss/forms": "^0.3.3",
+    "@tailwindcss/line-clamp": "^0.2.2",
+    "@vue/composition-api": "^1.4.3",
     "vue": "2.6",
     "vue-loader": "15.9",
     "vue-template-compiler": "2.6",
-    "webpack": "^4.46.0"
+    "webpack": "^5.51.1"
   },
   "packageManager": "yarn@3.2.0",
   "devDependencies": {
@@ -18,7 +21,14 @@
     "@storybook/addon-essentials": "^6.5.0-alpha.45",
     "@storybook/addon-links": "^6.5.0-alpha.45",
     "@storybook/vue": "^6.5.0-alpha.45",
-    "babel-loader": "^8.2.3"
+    "babel-loader": "^8.2.3",
+    "postcss": "^8.3.6",
+    "postcss-loader": "^6.1.1",
+    "sass": "^1.35.1",
+    "sass-loader": "^8.0.2",
+    "storybook-addon-sass-postcss": "^0.1.0",
+    "tailwindcss": "^2.2.9",
+    "typescript": "^4.4.2"
   },
   "scripts": {
     "storybook": "start-storybook -p 6006",
