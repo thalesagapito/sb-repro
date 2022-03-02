@@ -20,6 +20,8 @@
     "@storybook/addon-docs": "^6.5.0-alpha.45",
     "@storybook/addon-essentials": "^6.5.0-alpha.45",
     "@storybook/addon-links": "^6.5.0-alpha.45",
+    "@storybook/builder-webpack5": "^6.5.0-alpha.45",
+    "@storybook/manager-webpack5": "^6.5.0-alpha.45",
     "@storybook/vue": "^6.5.0-alpha.45",
     "babel-loader": "^8.2.3",
     "postcss": "^8.3.6",
