@@ -1,0 +1,47 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "strict": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "sourceMap": true,
+        "baseUrl": "./",
+        "allowJs": true,
+        "checkJs": false,
+        "paths": {
+            "@/*": [
+                "resources/js/v2/*"
+            ],
+            "~#/*": [
+                "resources/js/*"
+            ],
+            "@models": [
+                "resources/js/v2/api/models"
+            ]
+        },
+        "typeRoots": [
+            "node_modules/@types",
+            "resources/js/v2/sfc.d.ts",
+            "resources/js/v2/vue-shims.d.ts"
+        ],
+        "lib": [
+            "dom",
+            "es5",
+            "es6",
+            "es2015.promise"
+        ]
+    },
+    "include": [
+        "stories/**/*.ts",
+        "resources/js/v2/**/*.ts",
+        "resources/js/v2/**/*.vue"
+    ],
+    "exclude": [
+        "node_modules",
+        "resources/js/**/*.js",
+        "resources/js/v2/**/*.spec.ts",
+        "resources/js/v2/setup.tests.ts"
+    ]
+}
