@@ -24,6 +24,7 @@
     "@storybook/manager-webpack5": "^6.5.0-alpha.45",
     "@storybook/vue": "^6.5.0-alpha.45",
     "babel-loader": "^8.2.3",
+    "chromatic": "^6.5.1",
     "postcss": "^8.3.6",
     "postcss-loader": "^6.1.1",
     "sass": "^1.35.1",
@@ -34,6 +35,7 @@
   },
   "scripts": {
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=bc7619d4c062"
   }
 }
